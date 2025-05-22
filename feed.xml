@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RustSec Advisories</title><id>https://rustsec.org/feed.xml</id><updated>2024-01-13T12:00:00+00:00</updated><author><name>RustSec</name></author><icon>https://rustsec.org/favicon.ico</icon><link href="https://rustsec.org/feed.xml" rel="self" type="application/atom+xml"/><link href="https://rustsec.org/" rel="alternate" type="text/html"/><subtitle xml:lang="en">Security advisories filed against Rust crates</subtitle><entry><title>RUSTSEC-2024-0002: Unsoundness in vmm-sys-util</title><id>https://rustsec.org/advisories/RUSTSEC-2024-0002.html</id><updated>2024-01-13T12:00:00+00:00</updated><category term="memory-corruption"/><link href="https://rustsec.org/advisories/RUSTSEC-2024-0002.html" rel="alternate" type="text/html" title="RUSTSEC-2024-0002: Unsoundness in vmm-sys-util"/><published>2024-01-13T12:00:00+00:00</published><summary xml:lang="en">`serde` deserialization for `FamStructWrapper` lacks bound checks that could potentially lead to out-of-bounds memory access</summary><content xml:lang="en" type="html">  &lt;article&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RustSec Advisories</title><id>https://rustsec.org/feed.xml</id><updated>2025-05-17T12:00:00+00:00</updated><author><name>RustSec</name></author><icon>https://rustsec.org/favicon.ico</icon><link href="https://rustsec.org/feed.xml" rel="self" type="application/atom+xml"/><link href="https://rustsec.org/" rel="alternate" type="text/html"/><subtitle xml:lang="en">Security advisories filed against Rust crates</subtitle><entry><title>RUSTSEC-2025-0036: surf is unmaintained</title><id>https://rustsec.org/advisories/RUSTSEC-2025-0036.html</id><updated>2025-05-17T12:00:00+00:00</updated><link href="https://rustsec.org/advisories/RUSTSEC-2025-0036.html" rel="alternate" type="text/html" title="RUSTSEC-2025-0036: surf is unmaintained"/><published>2025-05-17T12:00:00+00:00</published><summary xml:lang="en">surf is unmaintained</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
         &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/vmm-sys-util/RUSTSEC-2024-0002.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/vmm-sys-util/RUSTSEC-2024-0002.md&quot;&gt;Edit&lt;/a&gt; ⋅
-          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2024-0002&quot;&gt;JSON (OSV)&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/surf/RUSTSEC-2025-0036.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/surf/RUSTSEC-2025-0036.md&quot;&gt;Edit&lt;/a&gt; ⋅
+          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2025-0036&quot;&gt;JSON (OSV)&lt;/a&gt;
         &lt;/span&gt;
     
 
     &lt;header&gt;
       &lt;h1&gt;
         
-        RUSTSEC-2024-0002
+        RUSTSEC-2025-0036
         
       &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;&lt;code&gt;serde&lt;/code&gt; deserialization for &lt;code&gt;FamStructWrapper&lt;/code&gt; lacks bound checks that could potentially lead to out-of-bounds memory access&lt;/p&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;surf is unmaintained&lt;/p&gt;
 &lt;/span&gt;
     &lt;/header&gt;
 
@@ -23,15 +23,15 @@
     &lt;dl&gt;
       &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
       &lt;dd&gt;
-        &lt;time datetime=&quot;2024-01-02&quot;&gt;
-          January  2, 2024
+        &lt;time datetime=&quot;2025-05-17&quot;&gt;
+          May 17, 2025
         &lt;/time&gt;
       &lt;/dd&gt;
 
       &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
       &lt;dd&gt;
-        &lt;time datetime=&quot;2024-01-13&quot;&gt;
-          January 13, 2024
+        &lt;time datetime=&quot;2025-05-17&quot;&gt;
+          May 17, 2025
         &lt;/time&gt;
         
       &lt;/dd&gt;
@@ -40,813 +40,8 @@
       &lt;dd&gt;
         
         
-        &lt;a href=&quot;/packages/vmm-sys-util.html&quot;&gt;vmm-sys-util&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/vmm-sys-util&quot;&gt;crates.io&lt;/a&gt;)
-        
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
-        Unsound
-        
-      &lt;/dd&gt;
-
-      
-      &lt;dt id=&quot;categories&quot;&gt;Categories&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;a href=&quot;/categories/memory-corruption.html&quot;&gt;memory-corruption&lt;/a&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      &lt;dt id=&quot;aliases&quot;&gt;Aliases&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;
-            
-            &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50711&quot;&gt;CVE-2023-50711&lt;/a&gt;
-            
-          &lt;/li&gt;
-          
-          &lt;li&gt;
-            
-            &lt;a href=&quot;https://github.com/advisories/GHSA-875g-mfp6-g7f9&quot;&gt;GHSA-875g-mfp6-g7f9&lt;/a&gt;
-            
-          &lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-      &lt;dt id=&quot;details&quot;&gt;References&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-        
-          &lt;li&gt;
-            &lt;a href=&quot;https://github.com/advisories/GHSA-875g-mfp6-g7f9&quot;&gt;
-              https://github.com/advisories/GHSA-875g-mfp6-g7f9
-            &lt;/a&gt;
-          &lt;/li&gt;
-        
-        
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      &lt;dt id=&quot;cvss_score&quot;&gt;CVSS Score&lt;/dt&gt;
-      &lt;dd&gt;5.7 &lt;span class=&quot;tag medium&quot;&gt;
-        MEDIUM
-      &lt;/span&gt;&lt;/dd&gt;
-
-      &lt;dt id=&quot;cvss_details&quot;&gt;CVSS Details&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;dl&gt;
-          
-          &lt;dt&gt;Attack vector&lt;/dt&gt;&lt;dd&gt;Local&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;Attack complexity&lt;/dt&gt;&lt;dd&gt;Low&lt;/d&gt;
-          
-
-          
-          &lt;dt&gt;Privileges required&lt;/dt&gt;&lt;dd&gt;None&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;User interaction&lt;/dt&gt;&lt;dd&gt;None&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;Scope&lt;/dt&gt;&lt;dd&gt;Changed&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;Confidentiality&lt;/dt&gt;&lt;dd&gt;None&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;Integrity&lt;/dt&gt;&lt;dd&gt;Low&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;Availability&lt;/dt&gt;&lt;dd&gt;Low&lt;/dd&gt;
-          
-        &lt;/dl&gt;
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;cvss&quot;&gt;CVSS Vector&lt;/dt&gt;
-      &lt;dd&gt;&lt;a href=&quot;https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:L&quot;&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:L&lt;/a&gt;&lt;/dd&gt;
-
-      
-
-      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.12.0&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-        
-      &lt;/dd&gt;
-
-      
-      &lt;dt id=&quot;unaffected&quot;&gt;Unaffected&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;lt;0.5.0&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-      
-
-      
-      
-    &lt;/dl&gt;
-
-    
-    
-    &lt;dl&gt;
-      &lt;dt&gt;Affected Functions&lt;/dt&gt;
-      &lt;dd&gt;Version&lt;/dd&gt;
-      
-      &lt;dt&gt;&lt;code&gt;vmm_sys_util::fam::FamStructWrapper::deserialize&lt;/code&gt;&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;lt;0.12.0, &amp;gt;=0.5.0&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-    &lt;/dl&gt;
-    
-
-    
-
-    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;h2&gt;Impact&lt;/h2&gt;
-&lt;p&gt;An issue was discovered in the &lt;code&gt;FamStructWrapper::deserialize&lt;/code&gt; implementation
-provided by the crate for &lt;code&gt;vmm_sys_util::fam::FamStructWrapper&lt;/code&gt;, which can lead
-to out of bounds memory accesses. The deserialization does not check that the
-length stored in the header matches the flexible array length. Mismatch in the
-lengths might allow out of bounds memory access through Rust-safe methods.&lt;/p&gt;
-&lt;p&gt;Impacted versions: &amp;gt;= 0.5.0&lt;/p&gt;
-&lt;h2&gt;Patches&lt;/h2&gt;
-&lt;p&gt;The issue was corrected in version 0.12.0 by inserting a check that verifies
-the lengths of compared flexible arrays are equal for any deserialized header
-and aborting deserialization otherwise. Moreover, the API was changed so that
-header length can only be modified through Rust-unsafe code. This ensures that
-users cannot trigger out-of-bounds memory access from Rust-safe code.&lt;/p&gt;
-
-
-    &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
-    license.
-
-    
-    &lt;/p&gt;
-  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2024-0001: Unsoundness in ferris-says</title><id>https://rustsec.org/advisories/RUSTSEC-2024-0001.html</id><updated>2024-01-13T12:00:00+00:00</updated><link href="https://rustsec.org/advisories/RUSTSEC-2024-0001.html" rel="alternate" type="text/html" title="RUSTSEC-2024-0001: Unsoundness in ferris-says"/><published>2024-01-13T12:00:00+00:00</published><summary xml:lang="en">Unsound use of str::from_utf8_unchecked on bytes which are not UTF-8</summary><content xml:lang="en" type="html">  &lt;article&gt;
-    
-        &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/ferris-says/RUSTSEC-2024-0001.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/ferris-says/RUSTSEC-2024-0001.md&quot;&gt;Edit&lt;/a&gt; ⋅
-          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2024-0001&quot;&gt;JSON (OSV)&lt;/a&gt;
-        &lt;/span&gt;
-    
-
-    &lt;header&gt;
-      &lt;h1&gt;
-        
-        RUSTSEC-2024-0001
-        
-      &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Unsound use of str::from_utf8_unchecked on bytes which are not UTF-8&lt;/p&gt;
-&lt;/span&gt;
-    &lt;/header&gt;
-
-    
-
-    &lt;dl&gt;
-      &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2024-01-13&quot;&gt;
-          January 13, 2024
-        &lt;/time&gt;
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2024-01-13&quot;&gt;
-          January 13, 2024
-        &lt;/time&gt;
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        
-        &lt;a href=&quot;/packages/ferris-says.html&quot;&gt;ferris-says&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/ferris-says&quot;&gt;crates.io&lt;/a&gt;)
-        
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
-        Unsound
-        
-      &lt;/dd&gt;
-
-      
-
-      
-
-      
-
-      
-      &lt;dt id=&quot;details&quot;&gt;References&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-        
-          &lt;li&gt;
-            &lt;a href=&quot;https://github.com/rust-lang/ferris-says/pull/21&quot;&gt;
-              https://github.com/rust-lang/ferris-says/pull/21
-            &lt;/a&gt;
-          &lt;/li&gt;
-        
-        
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      
-
-      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.3.1&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-        
-      &lt;/dd&gt;
-
-      
-      &lt;dt id=&quot;unaffected&quot;&gt;Unaffected&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;lt;=0.1.2&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-      
-    &lt;/dl&gt;
-
-    
-    
-
-    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;p&gt;Affected versions receive a &lt;code&gt;&amp;amp;[u8]&lt;/code&gt; from the caller through a safe API, and pass
-it directly to the unsafe &lt;code&gt;str::from_utf8_unchecked&lt;/code&gt; function.&lt;/p&gt;
-&lt;p&gt;The behavior of &lt;code&gt;ferris_says::say&lt;/code&gt; is undefined if the bytes from the caller
-don&apos;t happen to be valid UTF-8.&lt;/p&gt;
-&lt;p&gt;The flaw was corrected in &lt;a href=&quot;https://github.com/rust-lang/ferris-says/pull/21&quot;&gt;ferris-says#21&lt;/a&gt; by using the safe &lt;code&gt;str::from_utf8&lt;/code&gt;
-instead, and returning an error on invalid input. However this fix has not yet
-been published to crates.io as a patch version for 0.2.&lt;/p&gt;
-&lt;p&gt;Separately, &lt;a href=&quot;https://github.com/rust-lang/ferris-says/pull/32&quot;&gt;ferris-says#32&lt;/a&gt; has introduced a different API for version 0.3
-which accepts input as &lt;code&gt;&amp;amp;str&lt;/code&gt; rather than &lt;code&gt;&amp;amp;[u8]&lt;/code&gt;, so is unaffected by this bug.&lt;/p&gt;
-
-
-    &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
-    license.
-
-    
-    &lt;/p&gt;
-  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0078: Unsoundness in tracing</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0078.html</id><updated>2024-01-13T12:00:00+00:00</updated><category term="memory-corruption"/><link href="https://rustsec.org/advisories/RUSTSEC-2023-0078.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0078: Unsoundness in tracing"/><published>2024-01-13T12:00:00+00:00</published><summary xml:lang="en">Potential stack use-after-free in `Instrumented::into_inner`</summary><content xml:lang="en" type="html">  &lt;article&gt;
-    
-        &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/tracing/RUSTSEC-2023-0078.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/tracing/RUSTSEC-2023-0078.md&quot;&gt;Edit&lt;/a&gt; ⋅
-          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2023-0078&quot;&gt;JSON (OSV)&lt;/a&gt;
-        &lt;/span&gt;
-    
-
-    &lt;header&gt;
-      &lt;h1&gt;
-        
-        RUSTSEC-2023-0078
-        
-      &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Potential stack use-after-free in &lt;code&gt;Instrumented::into_inner&lt;/code&gt;&lt;/p&gt;
-&lt;/span&gt;
-    &lt;/header&gt;
-
-    
-
-    &lt;dl&gt;
-      &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-10-19&quot;&gt;
-          October 19, 2023
-        &lt;/time&gt;
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2024-01-13&quot;&gt;
-          January 13, 2024
-        &lt;/time&gt;
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        
-        &lt;a href=&quot;/packages/tracing.html&quot;&gt;tracing&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/tracing&quot;&gt;crates.io&lt;/a&gt;)
-        
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
-        Unsound
-        
-      &lt;/dd&gt;
-
-      
-      &lt;dt id=&quot;categories&quot;&gt;Categories&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;a href=&quot;/categories/memory-corruption.html&quot;&gt;memory-corruption&lt;/a&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-      &lt;dt id=&quot;keywords&quot;&gt;Keywords&lt;/dt&gt;
-      &lt;dd&gt;
-        
-          &lt;a href=&quot;/keywords/use-after-free.html&quot;&gt;#use-after-free&lt;/a&gt;
-        
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      &lt;dt id=&quot;details&quot;&gt;References&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-        
-          &lt;li&gt;
-            &lt;a href=&quot;https://github.com/tokio-rs/tracing/pull/2765&quot;&gt;
-              https://github.com/tokio-rs/tracing/pull/2765
-            &lt;/a&gt;
-          &lt;/li&gt;
-        
-        
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      
-
-      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.1.40&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-        
-      &lt;/dd&gt;
-
-      
-      &lt;dt id=&quot;unaffected&quot;&gt;Unaffected&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;lt;=0.1.37&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-      
-
-      
-      
-    &lt;/dl&gt;
-
-    
-    
-    &lt;dl&gt;
-      &lt;dt&gt;Affected Functions&lt;/dt&gt;
-      &lt;dd&gt;Version&lt;/dd&gt;
-      
-      &lt;dt&gt;&lt;code&gt;tracing::instrument::Instrumented::into_inner&lt;/code&gt;&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.1.38&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;lt;0.1.40&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-    &lt;/dl&gt;
-    
-
-    
-
-    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;p&gt;The implementation of the &lt;a href=&quot;https://docs.rs/tracing/latest/tracing/instrument/struct.Instrumented.html#method.into_inner&quot;&gt;&lt;code&gt;Instrumented::into_inner&lt;/code&gt;&lt;/a&gt; method in affected
-versions of this crate contains undefined behavior due to incorrect use of
-&lt;a href=&quot;https://doc.rust-lang.org/std/mem/fn.forget.html&quot;&gt;&lt;code&gt;std::mem::forget&lt;/code&gt;&lt;/a&gt; The function creates &lt;code&gt;*const&lt;/code&gt; pointers to &lt;code&gt;self&lt;/code&gt;, calls
-&lt;a href=&quot;https://doc.rust-lang.org/std/mem/fn.forget.html&quot;&gt;&lt;code&gt;mem::forget(self)&lt;/code&gt;&lt;/a&gt;, and then moves values out of those
-pointers using &lt;a href=&quot;https://doc.rust-lang.org/std/primitive.pointer.html#method.read-1&quot;&gt;&lt;code&gt;std::ptr::read&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-rust&quot;&gt;// To manually destructure `Instrumented` without `Drop`, we
-// move it into a ManuallyDrop and use pointers to its fields
-let span: *const Span = &amp;amp;this.span;
-let inner: *const ManuallyDrop&amp;lt;T&amp;gt; = &amp;amp;this.inner;
-mem::forget(self);
-// SAFETY: Those pointers are valid for reads, because `Drop` didn&apos;t
-//         run, and properly aligned, because `Instrumented` isn&apos;t
-//         `#[repr(packed)]`.
-let _span = unsafe { span.read() };
-let inner = unsafe { inner.read() };
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;However, the &lt;a href=&quot;https://doc.rust-lang.org/std/mem/fn.forget.html&quot;&gt;&lt;code&gt;mem::forget&lt;/code&gt; documentation&lt;/a&gt; states:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Any resources the value manages, such as heap memory or a file handle, will
-linger forever in an unreachable state. &lt;strong&gt;However, it does not guarantee that
-pointers to this memory will remain valid.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This means that these pointers are no longer valid. This could result in a stack
-use-after-free if LLVM chooses to reuse &lt;code&gt;self&lt;/code&gt;&apos;s stack slot for a rebinding
-after the call to &lt;a href=&quot;https://doc.rust-lang.org/std/mem/fn.forget.html&quot;&gt;&lt;code&gt;std::mem::forget&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This undefined behavior has not been observed to cause miscompilation as of Rust
-1.73.0. However, any use of this method with the affected versions of &lt;code&gt;tracing&lt;/code&gt;
-are unsound.&lt;/p&gt;
-&lt;p&gt;The flaw was corrected in commit &lt;a href=&quot;https://github.com/tokio-rs/tracing/commit/20a1762b3fd5f1fafead198fd18e469c68683721&quot;&gt;20a1762&lt;/a&gt; (&lt;a href=&quot;https://github.com/tokio-rs/tracing/pull/2765&quot;&gt;PR #2765&lt;/a&gt;) by replacing the use of
-&lt;a href=&quot;https://doc.rust-lang.org/std/mem/fn.forget.html&quot;&gt;&lt;code&gt;std::mem::forget&lt;/code&gt;&lt;/a&gt; with &lt;code&gt;std::mem::ManuallyDrop&lt;/code&gt;, ensuring that the stack slot
-is not reused and the pointers remain valid when they are read. The fix is
-published in &lt;code&gt;tracing&lt;/code&gt; &lt;a href=&quot;https://crates.io/crates/tracing/0.1.40&quot;&gt;v0.1.40&lt;/a&gt;. Affected versions have been yanked from
-crates.io.&lt;/p&gt;
-&lt;p&gt;Thanks to &lt;a href=&quot;https://github.com/cramertj&quot;&gt;Taylor Cramer&lt;/a&gt; and &lt;a href=&quot;https://github.com/manishearth&quot;&gt;Manish Goregaokar&lt;/a&gt; for finding and correcting
-this issue!&lt;/p&gt;
-
-
-    &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
-    license.
-
-    
-    &lt;/p&gt;
-  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0077: Vulnerability in rosenpass</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0077.html</id><updated>2023-12-21T12:00:00+00:00</updated><category term="denial-of-service"/><link href="https://rustsec.org/advisories/RUSTSEC-2023-0077.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0077: Vulnerability in rosenpass"/><published>2023-12-21T12:00:00+00:00</published><summary xml:lang="en">Remotely exploitable DoS condition in Rosenpass &amp;lt;=0.2.0</summary><content xml:lang="en" type="html">  &lt;article&gt;
-    
-        &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/rosenpass/RUSTSEC-2023-0077.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/rosenpass/RUSTSEC-2023-0077.md&quot;&gt;Edit&lt;/a&gt; ⋅
-          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2023-0077&quot;&gt;JSON (OSV)&lt;/a&gt;
-        &lt;/span&gt;
-    
-
-    &lt;header&gt;
-      &lt;h1&gt;
-        
-        RUSTSEC-2023-0077
-        
-      &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Remotely exploitable DoS condition in Rosenpass &amp;lt;=0.2.0&lt;/p&gt;
-&lt;/span&gt;
-    &lt;/header&gt;
-
-    
-
-    &lt;dl&gt;
-      &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-11-04&quot;&gt;
-          November  4, 2023
-        &lt;/time&gt;
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-12-21&quot;&gt;
-          December 21, 2023
-        &lt;/time&gt;
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        
-        &lt;a href=&quot;/packages/rosenpass.html&quot;&gt;rosenpass&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/rosenpass&quot;&gt;crates.io&lt;/a&gt;)
-        
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        Vulnerability
-        
-      &lt;/dd&gt;
-
-      
-      &lt;dt id=&quot;categories&quot;&gt;Categories&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;a href=&quot;/categories/denial-of-service.html&quot;&gt;denial-of-service&lt;/a&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-      &lt;dt id=&quot;keywords&quot;&gt;Keywords&lt;/dt&gt;
-      &lt;dd&gt;
-        
-          &lt;a href=&quot;/keywords/remote.html&quot;&gt;#remote&lt;/a&gt;
-        
-          &lt;a href=&quot;/keywords/single-byte.html&quot;&gt;#single-byte&lt;/a&gt;
-        
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      &lt;dt id=&quot;details&quot;&gt;References&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-        
-        
-          &lt;li&gt;
-            &lt;a href=&quot;https://github.com/rosenpass/rosenpass/commit/93439858d1c44294a7b377f775c4fc897a370bb2&quot;&gt;
-              https://github.com/rosenpass/rosenpass/commit/93439858d1c44294a7b377f775c4fc897a370bb2
-            &lt;/a&gt;
-          &lt;/li&gt;
-        
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      
-
-      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.2.1&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-        
-      &lt;/dd&gt;
-
-      
-
-      
-      
-    &lt;/dl&gt;
-
-    
-    
-
-    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;p&gt;Affected version do this crate did not validate the size of buffers when attempting to decode messages.&lt;/p&gt;
-&lt;p&gt;This allows an attacker to trigger a panic by sending a UDP datagram with a 1 byte payload over network.&lt;/p&gt;
-&lt;p&gt;This flaw was corrected by validating the size of the buffers before attempting to decode the message.&lt;/p&gt;
-
-
-    &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
-    license.
-
-    
-    &lt;/p&gt;
-  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0075: Unsoundness in unsafe-libyaml</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0075.html</id><updated>2023-12-20T12:00:00+00:00</updated><link href="https://rustsec.org/advisories/RUSTSEC-2023-0075.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0075: Unsoundness in unsafe-libyaml"/><published>2023-12-20T12:00:00+00:00</published><summary xml:lang="en">Unaligned write of u64 on 32-bit and 16-bit platforms</summary><content xml:lang="en" type="html">  &lt;article&gt;
-    
-        &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/unsafe-libyaml/RUSTSEC-2023-0075.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/unsafe-libyaml/RUSTSEC-2023-0075.md&quot;&gt;Edit&lt;/a&gt; ⋅
-          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2023-0075&quot;&gt;JSON (OSV)&lt;/a&gt;
-        &lt;/span&gt;
-    
-
-    &lt;header&gt;
-      &lt;h1&gt;
-        
-        RUSTSEC-2023-0075
-        
-      &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Unaligned write of u64 on 32-bit and 16-bit platforms&lt;/p&gt;
-&lt;/span&gt;
-    &lt;/header&gt;
-
-    
-
-    &lt;dl&gt;
-      &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-12-20&quot;&gt;
-          December 20, 2023
-        &lt;/time&gt;
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-12-20&quot;&gt;
-          December 20, 2023
-        &lt;/time&gt;
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        
-        &lt;a href=&quot;/packages/unsafe-libyaml.html&quot;&gt;unsafe-libyaml&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/unsafe-libyaml&quot;&gt;crates.io&lt;/a&gt;)
-        
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
-        Unsound
-        
-      &lt;/dd&gt;
-
-      
-
-      
-      &lt;dt id=&quot;keywords&quot;&gt;Keywords&lt;/dt&gt;
-      &lt;dd&gt;
-        
-          &lt;a href=&quot;/keywords/unaligned-write.html&quot;&gt;#unaligned-write&lt;/a&gt;
-        
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      &lt;dt id=&quot;details&quot;&gt;References&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-        
-          &lt;li&gt;
-            &lt;a href=&quot;https://github.com/dtolnay/unsafe-libyaml/issues/21&quot;&gt;
-              https://github.com/dtolnay/unsafe-libyaml/issues/21
-            &lt;/a&gt;
-          &lt;/li&gt;
-        
-        
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      
-
-      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.2.10&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-        
-      &lt;/dd&gt;
-
-      
-
-      
-      
-    &lt;/dl&gt;
-
-    
-    
-
-    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;p&gt;Affected versions allocate memory using the alignment of &lt;code&gt;usize&lt;/code&gt; and write data
-to it of type &lt;code&gt;u64&lt;/code&gt;, without using &lt;code&gt;core::ptr::write_unaligned&lt;/code&gt;. In platforms
-with sub-64bit alignment for &lt;code&gt;usize&lt;/code&gt; (including wasm32 and x86) these writes
-are insufficiently aligned some of the time.&lt;/p&gt;
-&lt;p&gt;If using an ordinary optimized standard library, the bug exhibits Undefined
-Behavior so may or may not behave in any sensible way, depending on
-optimization settings and hardware and other things. If using a Rust standard
-library built with debug assertions enabled, the bug manifests deterministically
-in a crash (non-unwinding panic) saying &lt;em&gt;&amp;quot;ptr::write requires that the pointer
-argument is aligned and non-null&amp;quot;&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;No 64-bit platform is impacted by the bug.&lt;/p&gt;
-&lt;p&gt;The flaw was corrected by allocating with adequately high alignment on all
-platforms.&lt;/p&gt;
-
-
-    &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
-    license.
-
-    
-    &lt;/p&gt;
-  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0076: cpython is unmaintained</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0076.html</id><updated>2023-12-20T12:00:00+00:00</updated><link href="https://rustsec.org/advisories/RUSTSEC-2023-0076.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0076: cpython is unmaintained"/><published>2023-12-20T12:00:00+00:00</published><summary xml:lang="en">`cpython` is unmaintained</summary><content xml:lang="en" type="html">  &lt;article&gt;
-    
-        &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/cpython/RUSTSEC-2023-0076.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/cpython/RUSTSEC-2023-0076.md&quot;&gt;Edit&lt;/a&gt; ⋅
-          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2023-0076&quot;&gt;JSON (OSV)&lt;/a&gt;
-        &lt;/span&gt;
-    
-
-    &lt;header&gt;
-      &lt;h1&gt;
-        
-        RUSTSEC-2023-0076
-        
-      &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;&lt;code&gt;cpython&lt;/code&gt; is unmaintained&lt;/p&gt;
-&lt;/span&gt;
-    &lt;/header&gt;
-
-    
-
-    &lt;dl&gt;
-      &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-11-14&quot;&gt;
-          November 14, 2023
-        &lt;/time&gt;
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-12-20&quot;&gt;
-          December 20, 2023
-        &lt;/time&gt;
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        
-        &lt;a href=&quot;/packages/cpython.html&quot;&gt;cpython&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/cpython&quot;&gt;crates.io&lt;/a&gt;)
+        &lt;a href=&quot;/packages/surf.html&quot;&gt;surf&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/surf&quot;&gt;crates.io&lt;/a&gt;)
         
         
       &lt;/dd&gt;
@@ -870,22 +65,10 @@ platforms.&lt;/p&gt;
       &lt;dd&gt;
         &lt;ul&gt;
         
-          &lt;li&gt;
-            &lt;a href=&quot;https://github.com/dgrunwald/rust-cpython/commit/e815555&quot;&gt;
-              https://github.com/dgrunwald/rust-cpython/commit/e815555
-            &lt;/a&gt;
-          &lt;/li&gt;
-        
         
           &lt;li&gt;
-            &lt;a href=&quot;https://github.com/dgrunwald/rust-cpython/issues/265&quot;&gt;
-              https://github.com/dgrunwald/rust-cpython/issues/265
-            &lt;/a&gt;
-          &lt;/li&gt;
-        
-          &lt;li&gt;
-            &lt;a href=&quot;https://github.com/dgrunwald/rust-cpython/issues/294&quot;&gt;
-              https://github.com/dgrunwald/rust-cpython/issues/294
+            &lt;a href=&quot;https://github.com/http-rs/surf/issues/352&quot;&gt;
+              https://github.com/http-rs/surf/issues/352
             &lt;/a&gt;
           &lt;/li&gt;
         
@@ -915,18 +98,15 @@ platforms.&lt;/p&gt;
     
 
     &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;p&gt;The &lt;code&gt;cpython&lt;/code&gt; crate and the underlying &lt;code&gt;python3-sys&lt;/code&gt; and &lt;code&gt;python27-sys&lt;/code&gt; crates have been marked as &lt;a href=&quot;https://github.com/dgrunwald/rust-cpython/commit/e815555&quot;&gt;no longer actively maintained&lt;/a&gt; by the developer.&lt;/p&gt;
-&lt;p&gt;There are also open issues for unsound code that is currently in these crates:&lt;/p&gt;
+    &lt;p&gt;The developer has indicated that the crate is unmaintained.&lt;/p&gt;
+&lt;p&gt;The last release is over three years old (from 2021), the crate depends on the
+deprecated &lt;code&gt;async-std&lt;/code&gt; crate and on a very old version of &lt;code&gt;rustls&lt;/code&gt; for TLS
+support.&lt;/p&gt;
+&lt;h2&gt;Possible alternatives&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/dgrunwald/rust-cpython/issues/265&quot;&gt;cpython#265&lt;/a&gt;: Using some string functions causes segmentation faults on big-endian architectures. Due to incorrect bitfield manipulations, it is possible to create invalid Python objects that crash the Python interpreter.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/dgrunwald/rust-cpython/issues/294&quot;&gt;cpython#294&lt;/a&gt;: Python 3.12 is not supported. Due to ABI changes in Python 3.12, calling some string functions will result in invalid Python objects and / or cause out-of-bounds memory accesses.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://crates.io/crates/reqwest&quot;&gt;reqwest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://crates.io/crates/ureq&quot;&gt;ureq&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Recommended alternatives&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://crates.io/crates/pyo3&quot;&gt;&lt;code&gt;pyo3&lt;/code&gt;&lt;/a&gt; (version 0.19.2 and newer)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The &lt;code&gt;pyo3&lt;/code&gt; crate is actively maintained. Preliminary support for Python 3.12 was added in version 0.19.2, and version 0.20.0 was released with full support for Python 3.12.&lt;/p&gt;
-&lt;p&gt;Both versions implement string functions correctly on big-endian architectures. The endianness issue affecting the &lt;code&gt;cpython&lt;/code&gt; crate was fixed in recent versions of &lt;code&gt;pyo3&lt;/code&gt;.&lt;/p&gt;
 
 
     &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
@@ -934,22 +114,22 @@ platforms.&lt;/p&gt;
 
     
     &lt;/p&gt;
-  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0074: Vulnerability in zerocopy</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0074.html</id><updated>2023-12-18T12:00:00+00:00</updated><link href="https://rustsec.org/advisories/RUSTSEC-2023-0074.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0074: Vulnerability in zerocopy"/><published>2023-12-18T12:00:00+00:00</published><summary xml:lang="en">Some Ref methods are unsound with some type parameters</summary><content xml:lang="en" type="html">  &lt;article&gt;
+  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2025-0035: Unsoundness in macroquad</title><id>https://rustsec.org/advisories/RUSTSEC-2025-0035.html</id><updated>2025-05-14T12:00:00+00:00</updated><category term="memory-corruption"/><link href="https://rustsec.org/advisories/RUSTSEC-2025-0035.html" rel="alternate" type="text/html" title="RUSTSEC-2025-0035: Unsoundness in macroquad"/><published>2025-05-14T12:00:00+00:00</published><summary xml:lang="en">Multiple soundness issues in `macroquad`</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
         &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/zerocopy/RUSTSEC-2023-0074.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/zerocopy/RUSTSEC-2023-0074.md&quot;&gt;Edit&lt;/a&gt; ⋅
-          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2023-0074&quot;&gt;JSON (OSV)&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/macroquad/RUSTSEC-2025-0035.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/macroquad/RUSTSEC-2025-0035.md&quot;&gt;Edit&lt;/a&gt; ⋅
+          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2025-0035&quot;&gt;JSON (OSV)&lt;/a&gt;
         &lt;/span&gt;
     
 
     &lt;header&gt;
       &lt;h1&gt;
         
-        RUSTSEC-2023-0074
+        RUSTSEC-2025-0035
         
       &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Some Ref methods are unsound with some type parameters&lt;/p&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Multiple soundness issues in &lt;code&gt;macroquad&lt;/code&gt;&lt;/p&gt;
 &lt;/span&gt;
     &lt;/header&gt;
 
@@ -958,15 +138,15 @@ platforms.&lt;/p&gt;
     &lt;dl&gt;
       &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
       &lt;dd&gt;
-        &lt;time datetime=&quot;2023-12-14&quot;&gt;
-          December 14, 2023
+        &lt;time datetime=&quot;2025-04-23&quot;&gt;
+          April 23, 2025
         &lt;/time&gt;
       &lt;/dd&gt;
 
       &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
       &lt;dd&gt;
-        &lt;time datetime=&quot;2023-12-18&quot;&gt;
-          December 18, 2023
+        &lt;time datetime=&quot;2025-05-14&quot;&gt;
+          May 14, 2025
         &lt;/time&gt;
         
       &lt;/dd&gt;
@@ -975,8 +155,8 @@ platforms.&lt;/p&gt;
       &lt;dd&gt;
         
         
-        &lt;a href=&quot;/packages/zerocopy.html&quot;&gt;zerocopy&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/zerocopy&quot;&gt;crates.io&lt;/a&gt;)
+        &lt;a href=&quot;/packages/macroquad.html&quot;&gt;macroquad&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/macroquad&quot;&gt;crates.io&lt;/a&gt;)
         
         
       &lt;/dd&gt;
@@ -984,241 +164,8 @@ platforms.&lt;/p&gt;
       &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
       &lt;dd&gt;
         
-        Vulnerability
-        
-      &lt;/dd&gt;
-
-      
-
-      
-      &lt;dt id=&quot;keywords&quot;&gt;Keywords&lt;/dt&gt;
-      &lt;dd&gt;
-        
-          &lt;a href=&quot;/keywords/ref.html&quot;&gt;#ref&lt;/a&gt;
-        
-          &lt;a href=&quot;/keywords/refcell.html&quot;&gt;#refcell&lt;/a&gt;
-        
-          &lt;a href=&quot;/keywords/mutable-aliasing.html&quot;&gt;#mutable-aliasing&lt;/a&gt;
-        
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      &lt;dt id=&quot;details&quot;&gt;References&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-        
-          &lt;li&gt;
-            &lt;a href=&quot;https://github.com/google/zerocopy/issues/716&quot;&gt;
-              https://github.com/google/zerocopy/issues/716
-            &lt;/a&gt;
-          &lt;/li&gt;
-        
-        
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      
-
-      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.2.9, &amp;lt;0.3.0&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.3.2, &amp;lt;0.4.0&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.4.1, &amp;lt;0.5.0&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.5.2, &amp;lt;0.6.0&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.6.6, &amp;lt;0.7.0&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.7.31&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-        
-      &lt;/dd&gt;
-
-      
-      &lt;dt id=&quot;unaffected&quot;&gt;Unaffected&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;lt;0.2.2&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-      
-
-      
-      
-    &lt;/dl&gt;
-
-    
-    
-    &lt;dl&gt;
-      &lt;dt&gt;Affected Functions&lt;/dt&gt;
-      &lt;dd&gt;Version&lt;/dd&gt;
-      
-      &lt;dt&gt;&lt;code&gt;zerocopy::Ref::into_mut&lt;/code&gt;&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.2.2, &amp;lt;0.2.9&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.3.0, &amp;lt;0.3.2&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.4.0, &amp;lt;0.4.1&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.5.0, &amp;lt;0.5.2&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.6.0, &amp;lt;0.6.6&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.7.0, &amp;lt;0.7.31&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-      &lt;dt&gt;&lt;code&gt;zerocopy::Ref::into_mut_slice&lt;/code&gt;&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.2.2, &amp;lt;0.2.9&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.3.0, &amp;lt;0.3.2&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.4.0, &amp;lt;0.4.1&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.5.0, &amp;lt;0.5.2&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.6.0, &amp;lt;0.6.6&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.7.0, &amp;lt;0.7.31&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-      &lt;dt&gt;&lt;code&gt;zerocopy::Ref::into_ref&lt;/code&gt;&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.2.2, &amp;lt;0.2.9&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.3.0, &amp;lt;0.3.2&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.4.0, &amp;lt;0.4.1&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.5.0, &amp;lt;0.5.2&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.6.0, &amp;lt;0.6.6&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.7.0, &amp;lt;0.7.31&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-      &lt;dt&gt;&lt;code&gt;zerocopy::Ref::into_slice&lt;/code&gt;&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.2.2, &amp;lt;0.2.9&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.3.0, &amp;lt;0.3.2&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.4.0, &amp;lt;0.4.1&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.5.0, &amp;lt;0.5.2&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.6.0, &amp;lt;0.6.6&lt;/code&gt;&lt;/li&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.7.0, &amp;lt;0.7.31&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-    &lt;/dl&gt;
-    
-
-    
-
-    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;p&gt;The &lt;code&gt;Ref&lt;/code&gt; methods &lt;code&gt;into_ref&lt;/code&gt;, &lt;code&gt;into_mut&lt;/code&gt;, &lt;code&gt;into_slice&lt;/code&gt;, and &lt;code&gt;into_slice_mut&lt;/code&gt; are unsound
-and may allow safe code to exhibit undefined behavior when used with &lt;code&gt;Ref&amp;lt;B, T&amp;gt;&lt;/code&gt; where &lt;code&gt;B&lt;/code&gt;
-is &lt;a href=&quot;https://doc.rust-lang.org/core/cell/struct.Ref.html&quot;&gt;&lt;code&gt;cell::Ref&lt;/code&gt;&lt;/a&gt; or
-&lt;a href=&quot;https://doc.rust-lang.org/core/cell/struct.RefMut.html&quot;&gt;&lt;code&gt;cell::RefMut&lt;/code&gt;&lt;/a&gt;. Note that these
-methods remain sound when used with &lt;code&gt;B&lt;/code&gt; types other than &lt;code&gt;cell::Ref&lt;/code&gt; or &lt;code&gt;cell::RefMut&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;See https://github.com/google/zerocopy/issues/716 for a more in-depth analysis.&lt;/p&gt;
-&lt;p&gt;The current plan is to yank the affected versions soon. See
-https://github.com/google/zerocopy/issues/679 for more detail.&lt;/p&gt;
-
-
-    &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
-    license.
-
-    
-    &lt;/p&gt;
-  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0073: Vulnerability in candid</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0073.html</id><updated>2023-12-09T12:00:00+00:00</updated><category term="denial-of-service"/><link href="https://rustsec.org/advisories/RUSTSEC-2023-0073.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0073: Vulnerability in candid"/><published>2023-12-09T12:00:00+00:00</published><summary xml:lang="en">Infinite decoding loop through specially crafted payload</summary><content xml:lang="en" type="html">  &lt;article&gt;
-    
-        &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/candid/RUSTSEC-2023-0073.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/candid/RUSTSEC-2023-0073.md&quot;&gt;Edit&lt;/a&gt; ⋅
-          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2023-0073&quot;&gt;JSON (OSV)&lt;/a&gt;
-        &lt;/span&gt;
-    
-
-    &lt;header&gt;
-      &lt;h1&gt;
-        
-        RUSTSEC-2023-0073
-        
-      &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Infinite decoding loop through specially crafted payload&lt;/p&gt;
-&lt;/span&gt;
-    &lt;/header&gt;
-
-    
-
-    &lt;dl&gt;
-      &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-12-08&quot;&gt;
-          December  8, 2023
-        &lt;/time&gt;
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-12-09&quot;&gt;
-          December  9, 2023
-        &lt;/time&gt;
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        
-        &lt;a href=&quot;/packages/candid.html&quot;&gt;candid&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/candid&quot;&gt;crates.io&lt;/a&gt;)
-        
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        Vulnerability
+        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
+        Unsound
         
       &lt;/dd&gt;
 
@@ -1227,7 +174,7 @@ https://github.com/google/zerocopy/issues/679 for more detail.&lt;/p&gt;
       &lt;dd&gt;
         &lt;ul&gt;
           
-          &lt;li&gt;&lt;a href=&quot;/categories/denial-of-service.html&quot;&gt;denial-of-service&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/categories/memory-corruption.html&quot;&gt;memory-corruption&lt;/a&gt;&lt;/li&gt;
           
         &lt;/ul&gt;
       &lt;/dd&gt;
@@ -1237,34 +184,15 @@ https://github.com/google/zerocopy/issues/679 for more detail.&lt;/p&gt;
       &lt;dt id=&quot;keywords&quot;&gt;Keywords&lt;/dt&gt;
       &lt;dd&gt;
         
-          &lt;a href=&quot;/keywords/candid.html&quot;&gt;#candid&lt;/a&gt;
+          &lt;a href=&quot;/keywords/buffer-overflow.html&quot;&gt;#buffer-overflow&lt;/a&gt;
         
-          &lt;a href=&quot;/keywords/canister.html&quot;&gt;#canister&lt;/a&gt;
+          &lt;a href=&quot;/keywords/use-after-free.html&quot;&gt;#use-after-free&lt;/a&gt;
         
-          &lt;a href=&quot;/keywords/icp.html&quot;&gt;#icp&lt;/a&gt;
+          &lt;a href=&quot;/keywords/undefined-behavior.html&quot;&gt;#undefined-behavior&lt;/a&gt;
         
       &lt;/dd&gt;
       
 
-      
-      &lt;dt id=&quot;aliases&quot;&gt;Aliases&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;
-            
-            &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6245&quot;&gt;CVE-2023-6245&lt;/a&gt;
-            
-          &lt;/li&gt;
-          
-          &lt;li&gt;
-            
-            &lt;a href=&quot;https://github.com/advisories/GHSA-7787-p7x6-fq3j&quot;&gt;GHSA-7787-p7x6-fq3j&lt;/a&gt;
-            
-          &lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
       
 
       
@@ -1272,262 +200,28 @@ https://github.com/google/zerocopy/issues/679 for more detail.&lt;/p&gt;
       &lt;dd&gt;
         &lt;ul&gt;
         
+        
           &lt;li&gt;
-            &lt;a href=&quot;https://github.com/dfinity/candid/pull/478&quot;&gt;
-              https://github.com/dfinity/candid/pull/478
+            &lt;a href=&quot;https://github.com/not-fl3/macroquad/issues/333&quot;&gt;
+              https://github.com/not-fl3/macroquad/issues/333
             &lt;/a&gt;
           &lt;/li&gt;
         
-        
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-
-      
-      &lt;dt id=&quot;cvss_score&quot;&gt;CVSS Score&lt;/dt&gt;
-      &lt;dd&gt;7.5 &lt;span class=&quot;tag high&quot;&gt;
-        HIGH
-      &lt;/span&gt;&lt;/dd&gt;
-
-      &lt;dt id=&quot;cvss_details&quot;&gt;CVSS Details&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;dl&gt;
-          
-          &lt;dt&gt;Attack vector&lt;/dt&gt;&lt;dd&gt;Network&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;Attack complexity&lt;/dt&gt;&lt;dd&gt;Low&lt;/d&gt;
-          
-
-          
-          &lt;dt&gt;Privileges required&lt;/dt&gt;&lt;dd&gt;None&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;User interaction&lt;/dt&gt;&lt;dd&gt;None&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;Scope&lt;/dt&gt;&lt;dd&gt;Unchanged&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;Confidentiality&lt;/dt&gt;&lt;dd&gt;None&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;Integrity&lt;/dt&gt;&lt;dd&gt;None&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;Availability&lt;/dt&gt;&lt;dd&gt;High&lt;/dd&gt;
-          
-        &lt;/dl&gt;
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;cvss&quot;&gt;CVSS Vector&lt;/dt&gt;
-      &lt;dd&gt;&lt;a href=&quot;https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&quot;&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H&lt;/a&gt;&lt;/dd&gt;
-
-      
-
-      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.9.10&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-        
-      &lt;/dd&gt;
-
-      
-      &lt;dt id=&quot;unaffected&quot;&gt;Unaffected&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;lt;0.9.0&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-      
-
-      
-      
-    &lt;/dl&gt;
-
-    
-    
-    &lt;dl&gt;
-      &lt;dt&gt;Affected Functions&lt;/dt&gt;
-      &lt;dd&gt;Version&lt;/dd&gt;
-      
-      &lt;dt&gt;&lt;code&gt;candid::Decode&lt;/code&gt;&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.9.0, &amp;lt;0.9.10&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-    &lt;/dl&gt;
-    
-
-    
-
-    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;p&gt;The Candid library causes a Denial of Service while parsing a specially crafted payload with &lt;code&gt;empty&lt;/code&gt; data type. For example, if the payload is &lt;code&gt;record { * ; empty }&lt;/code&gt; and  the canister interface expects &lt;code&gt;record { * }&lt;/code&gt; then the rust candid decoder treats &lt;code&gt;empty&lt;/code&gt; as an extra field required by the type.  The problem with type &lt;code&gt;empty&lt;/code&gt; is that the candid rust library wrongly categorizes &lt;code&gt;empty&lt;/code&gt; as a recoverable error when skipping the field and thus causing an infinite decoding loop.&lt;/p&gt;
-&lt;p&gt;Canisters using affected versions of candid are exposed to denial of service by causing the decoding to run indefinitely until the canister traps due to reaching maximum instruction limit per execution round. Repeated exposure to the payload will result in degraded performance of the canister.&lt;/p&gt;
-&lt;p&gt;For asset canister users, &lt;code&gt;dfx&lt;/code&gt; versions &lt;code&gt;&amp;gt;= 0.14.4&lt;/code&gt; to &lt;code&gt;&amp;lt;= 0.15.2-beta.0&lt;/code&gt; ships asset canister with an affected version of candid.&lt;/p&gt;
-&lt;h3&gt;Unaffected&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Rust canisters using candid &lt;code&gt;&amp;lt; 0.9.0&lt;/code&gt; or &lt;code&gt;&amp;gt;= 0.9.10&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Rust canister interfaces of type other than &lt;code&gt;record { * }&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Motoko based canisters&lt;/li&gt;
-&lt;li&gt;dfx (for asset canister) &lt;code&gt;&amp;lt;= 0.14.3&lt;/code&gt; or &lt;code&gt;&amp;gt;= 0.15.2&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;References&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/dfinity/candid/security/advisories/GHSA-7787-p7x6-fq3j&quot;&gt;GitHub Security Advisory (GHSA-7787-p7x6-fq3j)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/dfinity/candid/pull/478&quot;&gt;dfinity/candid/pull/478&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://internetcomputer.org/docs/current/references/candid-ref&quot;&gt;Candid Library Reference&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/dfinity/candid/blob/master/spec/Candid.md&quot;&gt;Candid Specification&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://internetcomputer.org/docs/current/references/ic-interface-spec&quot;&gt;Internet Computer Specification&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-    &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
-    license.
-
-    
-    &lt;/p&gt;
-  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0071: Vulnerability in rsa</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0071.html</id><updated>2023-12-15T12:00:00+00:00</updated><category term="crypto-failure"/><link href="https://rustsec.org/advisories/RUSTSEC-2023-0071.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0071: Vulnerability in rsa"/><published>2023-11-28T12:00:00+00:00</published><summary xml:lang="en">Marvin Attack: potential key recovery through timing sidechannels</summary><content xml:lang="en" type="html">  &lt;article&gt;
-    
-        &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/rsa/RUSTSEC-2023-0071.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/rsa/RUSTSEC-2023-0071.md&quot;&gt;Edit&lt;/a&gt; ⋅
-          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2023-0071&quot;&gt;JSON (OSV)&lt;/a&gt;
-        &lt;/span&gt;
-    
-
-    &lt;header&gt;
-      &lt;h1&gt;
-        
-        RUSTSEC-2023-0071
-        
-      &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Marvin Attack: potential key recovery through timing sidechannels&lt;/p&gt;
-&lt;/span&gt;
-    &lt;/header&gt;
-
-    
-
-    &lt;dl&gt;
-      &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-11-22&quot;&gt;
-          November 22, 2023
-        &lt;/time&gt;
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;time datetime=&quot;2023-11-28&quot;&gt;
-          November 28, 2023
-        &lt;/time&gt;
-        
-        &lt;time datetime=&quot;2023-12-15&quot;&gt;
-          (last modified: December 15, 2023)
-        &lt;/time&gt;
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        
-        &lt;a href=&quot;/packages/rsa.html&quot;&gt;rsa&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/rsa&quot;&gt;crates.io&lt;/a&gt;)
-        
-        
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
-      &lt;dd&gt;
-        
-        Vulnerability
-        
-      &lt;/dd&gt;
-
-      
-      &lt;dt id=&quot;categories&quot;&gt;Categories&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;a href=&quot;/categories/crypto-failure.html&quot;&gt;crypto-failure&lt;/a&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-      &lt;dt id=&quot;keywords&quot;&gt;Keywords&lt;/dt&gt;
-      &lt;dd&gt;
-        
-          &lt;a href=&quot;/keywords/cryptography.html&quot;&gt;#cryptography&lt;/a&gt;
-        
-      &lt;/dd&gt;
-      
-
-      
-      &lt;dt id=&quot;aliases&quot;&gt;Aliases&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-          
           &lt;li&gt;
-            
-            &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-49092&quot;&gt;CVE-2023-49092&lt;/a&gt;
-            
-          &lt;/li&gt;
-          
-          &lt;li&gt;
-            
-            &lt;a href=&quot;https://github.com/advisories/GHSA-c38w-74pg-36hr&quot;&gt;GHSA-c38w-74pg-36hr&lt;/a&gt;
-            
-          &lt;/li&gt;
-          
-          &lt;li&gt;
-            
-            &lt;a href=&quot;https://github.com/advisories/GHSA-4grx-2x9w-596c&quot;&gt;GHSA-4grx-2x9w-596c&lt;/a&gt;
-            
-          &lt;/li&gt;
-          
-        &lt;/ul&gt;
-      &lt;/dd&gt;
-      
-
-      
-      &lt;dt id=&quot;details&quot;&gt;References&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;ul&gt;
-        
-          &lt;li&gt;
-            &lt;a href=&quot;https://github.com/RustCrypto/RSA/issues/19#issuecomment-1822995643&quot;&gt;
-              https://github.com/RustCrypto/RSA/issues/19#issuecomment-1822995643
+            &lt;a href=&quot;https://github.com/not-fl3/macroquad/issues/634&quot;&gt;
+              https://github.com/not-fl3/macroquad/issues/634
             &lt;/a&gt;
           &lt;/li&gt;
         
+          &lt;li&gt;
+            &lt;a href=&quot;https://github.com/not-fl3/macroquad/issues/746&quot;&gt;
+              https://github.com/not-fl3/macroquad/issues/746
+            &lt;/a&gt;
+          &lt;/li&gt;
         
           &lt;li&gt;
-            &lt;a href=&quot;https://people.redhat.com/~hkario/marvin/&quot;&gt;
-              https://people.redhat.com/~hkario/marvin/
+            &lt;a href=&quot;https://github.com/not-fl3/macroquad/issues/723&quot;&gt;
+              https://github.com/not-fl3/macroquad/issues/723
             &lt;/a&gt;
           &lt;/li&gt;
         
@@ -1538,51 +232,6 @@ https://github.com/google/zerocopy/issues/679 for more detail.&lt;/p&gt;
       
 
       
-      &lt;dt id=&quot;cvss_score&quot;&gt;CVSS Score&lt;/dt&gt;
-      &lt;dd&gt;5.9 &lt;span class=&quot;tag medium&quot;&gt;
-        MEDIUM
-      &lt;/span&gt;&lt;/dd&gt;
-
-      &lt;dt id=&quot;cvss_details&quot;&gt;CVSS Details&lt;/dt&gt;
-      &lt;dd&gt;
-        &lt;dl&gt;
-          
-          &lt;dt&gt;Attack vector&lt;/dt&gt;&lt;dd&gt;Network&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;Attack complexity&lt;/dt&gt;&lt;dd&gt;High&lt;/d&gt;
-          
-
-          
-          &lt;dt&gt;Privileges required&lt;/dt&gt;&lt;dd&gt;None&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;User interaction&lt;/dt&gt;&lt;dd&gt;None&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;Scope&lt;/dt&gt;&lt;dd&gt;Unchanged&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;Confidentiality&lt;/dt&gt;&lt;dd&gt;High&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;Integrity&lt;/dt&gt;&lt;dd&gt;None&lt;/dd&gt;
-          
-
-          
-          &lt;dt&gt;Availability&lt;/dt&gt;&lt;dd&gt;None&lt;/dd&gt;
-          
-        &lt;/dl&gt;
-      &lt;/dd&gt;
-
-      &lt;dt id=&quot;cvss&quot;&gt;CVSS Vector&lt;/dt&gt;
-      &lt;dd&gt;&lt;a href=&quot;https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N&quot;&gt;CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N&lt;/a&gt;&lt;/dd&gt;
-
       
 
       &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
@@ -1602,14 +251,9 @@ https://github.com/google/zerocopy/issues/679 for more detail.&lt;/p&gt;
     
 
     &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;h3&gt;Impact&lt;/h3&gt;
-&lt;p&gt;Due to a non-constant-time implementation, information about the private key is leaked through timing information which is observable over the network. An attacker may be able to use that information to recover the key.&lt;/p&gt;
-&lt;h3&gt;Patches&lt;/h3&gt;
-&lt;p&gt;No patch is yet available, however work is underway to migrate to a fully constant-time implementation.&lt;/p&gt;
-&lt;h3&gt;Workarounds&lt;/h3&gt;
-&lt;p&gt;The only currently available workaround is to avoid using the &lt;code&gt;rsa&lt;/code&gt; crate in settings where attackers are able to observe timing information, e.g. local use on a non-compromised computer is fine.&lt;/p&gt;
-&lt;h3&gt;References&lt;/h3&gt;
-&lt;p&gt;This vulnerability was discovered as part of the &amp;quot;&lt;a href=&quot;https://people.redhat.com/~hkario/marvin/&quot;&gt;Marvin Attack&lt;/a&gt;&amp;quot;, which revealed several implementations of RSA including OpenSSL had not properly mitigated timing sidechannel attacks.&lt;/p&gt;
+    &lt;p&gt;Several soundness issues have been reported. Resolving them doesn&apos;t seem to be considered a priority. In particular, unprincipled use of
+mutable statics is pervasive throughout the library, making it possible to cause use-after-free in safe code.&lt;/p&gt;
+&lt;p&gt;Currently, no fixed version is available.&lt;/p&gt;
 
 
     &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
@@ -1617,22 +261,22 @@ https://github.com/google/zerocopy/issues/679 for more detail.&lt;/p&gt;
 
     
     &lt;/p&gt;
-  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2023-0072: Unsoundness in openssl</title><id>https://rustsec.org/advisories/RUSTSEC-2023-0072.html</id><updated>2023-12-20T12:00:00+00:00</updated><category term="memory-corruption"/><link href="https://rustsec.org/advisories/RUSTSEC-2023-0072.html" rel="alternate" type="text/html" title="RUSTSEC-2023-0072: Unsoundness in openssl"/><published>2023-11-28T12:00:00+00:00</published><summary xml:lang="en">`openssl` `X509StoreRef::objects` is unsound</summary><content xml:lang="en" type="html">  &lt;article&gt;
+  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2025-0034: Unsoundness in fast_id_map</title><id>https://rustsec.org/advisories/RUSTSEC-2025-0034.html</id><updated>2025-05-08T12:00:00+00:00</updated><category term="memory-corruption"/><link href="https://rustsec.org/advisories/RUSTSEC-2025-0034.html" rel="alternate" type="text/html" title="RUSTSEC-2025-0034: Unsoundness in fast_id_map"/><published>2025-05-08T12:00:00+00:00</published><summary xml:lang="en">soundness issue and unmaintained</summary><content xml:lang="en" type="html">  &lt;article&gt;
     
         &lt;span class=&quot;floating-menu&quot;&gt;
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/openssl/RUSTSEC-2023-0072.md&quot;&gt;History&lt;/a&gt; ⋅ 
-          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/openssl/RUSTSEC-2023-0072.md&quot;&gt;Edit&lt;/a&gt; ⋅
-          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2023-0072&quot;&gt;JSON (OSV)&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/fast_id_map/RUSTSEC-2025-0034.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/fast_id_map/RUSTSEC-2025-0034.md&quot;&gt;Edit&lt;/a&gt; ⋅
+          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2025-0034&quot;&gt;JSON (OSV)&lt;/a&gt;
         &lt;/span&gt;
     
 
     &lt;header&gt;
       &lt;h1&gt;
         
-        RUSTSEC-2023-0072
+        RUSTSEC-2025-0034
         
       &lt;/h1&gt;
-      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;&lt;code&gt;openssl&lt;/code&gt; &lt;code&gt;X509StoreRef::objects&lt;/code&gt; is unsound&lt;/p&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;soundness issue and unmaintained&lt;/p&gt;
 &lt;/span&gt;
     &lt;/header&gt;
 
@@ -1641,19 +285,15 @@ https://github.com/google/zerocopy/issues/679 for more detail.&lt;/p&gt;
     &lt;dl&gt;
       &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
       &lt;dd&gt;
-        &lt;time datetime=&quot;2023-11-23&quot;&gt;
-          November 23, 2023
+        &lt;time datetime=&quot;2025-05-06&quot;&gt;
+          May  6, 2025
         &lt;/time&gt;
       &lt;/dd&gt;
 
       &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
       &lt;dd&gt;
-        &lt;time datetime=&quot;2023-11-28&quot;&gt;
-          November 28, 2023
-        &lt;/time&gt;
-        
-        &lt;time datetime=&quot;2023-12-20&quot;&gt;
-          (last modified: December 20, 2023)
+        &lt;time datetime=&quot;2025-05-08&quot;&gt;
+          May  8, 2025
         &lt;/time&gt;
         
       &lt;/dd&gt;
@@ -1662,8 +302,8 @@ https://github.com/google/zerocopy/issues/679 for more detail.&lt;/p&gt;
       &lt;dd&gt;
         
         
-        &lt;a href=&quot;/packages/openssl.html&quot;&gt;openssl&lt;/a&gt;
-          (&lt;a href=&quot;https://crates.io/crates/openssl&quot;&gt;crates.io&lt;/a&gt;)
+        &lt;a href=&quot;/packages/fast_id_map.html&quot;&gt;fast_id_map&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/fast_id_map&quot;&gt;crates.io&lt;/a&gt;)
         
         
       &lt;/dd&gt;
@@ -1697,8 +337,8 @@ https://github.com/google/zerocopy/issues/679 for more detail.&lt;/p&gt;
         &lt;ul&gt;
         
           &lt;li&gt;
-            &lt;a href=&quot;https://github.com/sfackler/rust-openssl/issues/2096&quot;&gt;
-              https://github.com/sfackler/rust-openssl/issues/2096
+            &lt;a href=&quot;https://github.com/Bruce0203/fast_map&quot;&gt;
+              https://github.com/Bruce0203/fast_map
             &lt;/a&gt;
           &lt;/li&gt;
         
@@ -1715,11 +355,7 @@ https://github.com/google/zerocopy/issues/679 for more detail.&lt;/p&gt;
       &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
       &lt;dd&gt;
         
-        &lt;ul&gt;
-          
-          &lt;li&gt;&lt;code&gt;&amp;gt;=0.10.60&lt;/code&gt;&lt;/li&gt;
-          
-        &lt;/ul&gt;
+        no patched versions
         
       &lt;/dd&gt;
 
@@ -1738,11 +374,11 @@ https://github.com/google/zerocopy/issues/679 for more detail.&lt;/p&gt;
       &lt;dt&gt;Affected Functions&lt;/dt&gt;
       &lt;dd&gt;Version&lt;/dd&gt;
       
-      &lt;dt&gt;&lt;code&gt;openssl::x509::store::X509StoreRef::objects&lt;/code&gt;&lt;/dt&gt;
+      &lt;dt&gt;&lt;code&gt;fast_id_map::FastMap::get&lt;/code&gt;&lt;/dt&gt;
       &lt;dd&gt;
         &lt;ul&gt;
           
-          &lt;li&gt;&lt;code&gt;&amp;lt;0.10.60, &amp;gt;=0.10.29&lt;/code&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;code&gt;&amp;#60;=0.1.0&lt;/code&gt;&lt;/li&gt;
           
         &lt;/ul&gt;
       &lt;/dd&gt;
@@ -1753,8 +389,1042 @@ https://github.com/google/zerocopy/issues/679 for more detail.&lt;/p&gt;
     
 
     &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-    &lt;p&gt;This function returned a shared reference into an OpenSSL datastructure but did not account for interior mutability. OpenSSL may modify the data behind this reference, meaning accesses can race and the reference is unsound.&lt;/p&gt;
-&lt;p&gt;Use of this function should be replaced with &lt;code&gt;X509StoreRef::all_certificates&lt;/code&gt;.&lt;/p&gt;
+    &lt;p&gt;&lt;code&gt;FastMap::get()&lt;/code&gt; lacks sufficient checks to its parameter index and is used to unsafely get a &lt;code&gt;Vec&lt;/code&gt; element.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;fast_id_map&lt;/code&gt; is unmaintained.&lt;/p&gt;
+
+
+    &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
+    license.
+
+    
+    &lt;/p&gt;
+  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2025-0033: Unsoundness in scanner</title><id>https://rustsec.org/advisories/RUSTSEC-2025-0033.html</id><updated>2025-05-07T12:00:00+00:00</updated><category term="memory-corruption"/><link href="https://rustsec.org/advisories/RUSTSEC-2025-0033.html" rel="alternate" type="text/html" title="RUSTSEC-2025-0033: Unsoundness in scanner"/><published>2025-05-07T12:00:00+00:00</published><summary xml:lang="en">Public API without sufficient bounds checking</summary><content xml:lang="en" type="html">  &lt;article&gt;
+    
+        &lt;span class=&quot;floating-menu&quot;&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/scanner/RUSTSEC-2025-0033.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/scanner/RUSTSEC-2025-0033.md&quot;&gt;Edit&lt;/a&gt; ⋅
+          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2025-0033&quot;&gt;JSON (OSV)&lt;/a&gt;
+        &lt;/span&gt;
+    
+
+    &lt;header&gt;
+      &lt;h1&gt;
+        
+        RUSTSEC-2025-0033
+        
+      &lt;/h1&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Public API without sufficient bounds checking&lt;/p&gt;
+&lt;/span&gt;
+    &lt;/header&gt;
+
+    
+
+    &lt;dl&gt;
+      &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2025-03-27&quot;&gt;
+          March 27, 2025
+        &lt;/time&gt;
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2025-05-07&quot;&gt;
+          May  7, 2025
+        &lt;/time&gt;
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        
+        &lt;a href=&quot;/packages/scanner.html&quot;&gt;scanner&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/scanner&quot;&gt;crates.io&lt;/a&gt;)
+        
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
+        Unsound
+        
+      &lt;/dd&gt;
+
+      
+      &lt;dt id=&quot;categories&quot;&gt;Categories&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;a href=&quot;/categories/memory-corruption.html&quot;&gt;memory-corruption&lt;/a&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+      &lt;dt id=&quot;keywords&quot;&gt;Keywords&lt;/dt&gt;
+      &lt;dd&gt;
+        
+          &lt;a href=&quot;/keywords/out-of-bounds-read.html&quot;&gt;#out-of-bounds-read&lt;/a&gt;
+        
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      &lt;dt id=&quot;details&quot;&gt;References&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+        
+          &lt;li&gt;
+            &lt;a href=&quot;https://github.com/pombredanne/scanner-rs/pull/1&quot;&gt;
+              https://github.com/pombredanne/scanner-rs/pull/1
+            &lt;/a&gt;
+          &lt;/li&gt;
+        
+        
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      
+
+      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        no patched versions
+        
+      &lt;/dd&gt;
+
+      
+
+      
+      
+
+      
+      
+    &lt;/dl&gt;
+
+    
+    
+    &lt;dl&gt;
+      &lt;dt&gt;Affected Functions&lt;/dt&gt;
+      &lt;dd&gt;Version&lt;/dd&gt;
+      
+      &lt;dt&gt;&lt;code&gt;scanner::Match::get&lt;/code&gt;&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;code&gt;&amp;#60;=0.1.0&lt;/code&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+      &lt;dt&gt;&lt;code&gt;scanner::Match::ptr&lt;/code&gt;&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;code&gt;&amp;#60;=0.1.0&lt;/code&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+    &lt;/dl&gt;
+    
+
+    
+
+    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+    &lt;p&gt;&lt;code&gt;Match::get()&lt;/code&gt; and &lt;code&gt;Match::ptr()&lt;/code&gt; lack sufficient bounds checks, leading to potential out of bounds reads.&lt;/p&gt;
+
+
+    &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
+    license.
+
+    
+    &lt;/p&gt;
+  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2025-0032: Unsoundness in redox_uefi_std</title><id>https://rustsec.org/advisories/RUSTSEC-2025-0032.html</id><updated>2025-05-06T12:00:00+00:00</updated><category term="memory-corruption"/><link href="https://rustsec.org/advisories/RUSTSEC-2025-0032.html" rel="alternate" type="text/html" title="RUSTSEC-2025-0032: Unsoundness in redox_uefi_std"/><published>2025-05-06T12:00:00+00:00</published><summary xml:lang="en">Safe API can cause heap-buffer-overflow</summary><content xml:lang="en" type="html">  &lt;article&gt;
+    
+        &lt;span class=&quot;floating-menu&quot;&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/redox_uefi_std/RUSTSEC-2025-0032.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/redox_uefi_std/RUSTSEC-2025-0032.md&quot;&gt;Edit&lt;/a&gt; ⋅
+          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2025-0032&quot;&gt;JSON (OSV)&lt;/a&gt;
+        &lt;/span&gt;
+    
+
+    &lt;header&gt;
+      &lt;h1&gt;
+        
+        RUSTSEC-2025-0032
+        
+      &lt;/h1&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Safe API can cause heap-buffer-overflow&lt;/p&gt;
+&lt;/span&gt;
+    &lt;/header&gt;
+
+    
+
+    &lt;dl&gt;
+      &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2025-03-27&quot;&gt;
+          March 27, 2025
+        &lt;/time&gt;
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2025-05-06&quot;&gt;
+          May  6, 2025
+        &lt;/time&gt;
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        
+        &lt;a href=&quot;/packages/redox_uefi_std.html&quot;&gt;redox_uefi_std&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/redox_uefi_std&quot;&gt;crates.io&lt;/a&gt;)
+        
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
+        Unsound
+        
+      &lt;/dd&gt;
+
+      
+      &lt;dt id=&quot;categories&quot;&gt;Categories&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;a href=&quot;/categories/memory-corruption.html&quot;&gt;memory-corruption&lt;/a&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+      &lt;dt id=&quot;keywords&quot;&gt;Keywords&lt;/dt&gt;
+      &lt;dd&gt;
+        
+          &lt;a href=&quot;/keywords/out-of-bounds-read.html&quot;&gt;#out-of-bounds-read&lt;/a&gt;
+        
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      &lt;dt id=&quot;details&quot;&gt;References&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+        
+          &lt;li&gt;
+            &lt;a href=&quot;https://gitlab.redox-os.org/redox-os/uefi/-/commit/b711d47e815665b0ec8949e39292ad8e3fdd0756&quot;&gt;
+              https://gitlab.redox-os.org/redox-os/uefi/-/commit/b711d47e815665b0ec8949e39292ad8e3fdd0756
+            &lt;/a&gt;
+          &lt;/li&gt;
+        
+        
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      
+
+      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;code&gt;&amp;#62;=0.1.14&lt;/code&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+        
+      &lt;/dd&gt;
+
+      
+      &lt;dt id=&quot;unaffected&quot;&gt;Unaffected&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;code&gt;&amp;#60;0.1.8&lt;/code&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+      
+
+      
+      
+    &lt;/dl&gt;
+
+    
+    
+    &lt;dl&gt;
+      &lt;dt&gt;Affected Functions&lt;/dt&gt;
+      &lt;dd&gt;Version&lt;/dd&gt;
+      
+      &lt;dt&gt;&lt;code&gt;redox_uefi_std::ffi::nstr&lt;/code&gt;&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;code&gt;&amp;#62;=0.1.8, &amp;#60;0.1.14&lt;/code&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+    &lt;/dl&gt;
+    
+
+    
+
+    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+    &lt;p&gt;ffi::nstr() should be marked unsafe, since a pointer to a buffer without a trailing 0 value will cause a heap buffer overflow.&lt;/p&gt;
+
+
+    &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
+    license.
+
+    
+    &lt;/p&gt;
+  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2025-0031: Vulnerability in tanton_engine</title><id>https://rustsec.org/advisories/RUSTSEC-2025-0031.html</id><updated>2025-05-06T12:00:00+00:00</updated><category term="memory-corruption"/><link href="https://rustsec.org/advisories/RUSTSEC-2025-0031.html" rel="alternate" type="text/html" title="RUSTSEC-2025-0031: Vulnerability in tanton_engine"/><published>2025-05-06T12:00:00+00:00</published><summary xml:lang="en">Unsound public API in unmaintained crate</summary><content xml:lang="en" type="html">  &lt;article&gt;
+    
+        &lt;span class=&quot;floating-menu&quot;&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/tanton_engine/RUSTSEC-2025-0031.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/tanton_engine/RUSTSEC-2025-0031.md&quot;&gt;Edit&lt;/a&gt; ⋅
+          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2025-0031&quot;&gt;JSON (OSV)&lt;/a&gt;
+        &lt;/span&gt;
+    
+
+    &lt;header&gt;
+      &lt;h1&gt;
+        
+        RUSTSEC-2025-0031
+        
+      &lt;/h1&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Unsound public API in unmaintained crate&lt;/p&gt;
+&lt;/span&gt;
+    &lt;/header&gt;
+
+    
+
+    &lt;dl&gt;
+      &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2025-04-24&quot;&gt;
+          April 24, 2025
+        &lt;/time&gt;
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2025-05-06&quot;&gt;
+          May  6, 2025
+        &lt;/time&gt;
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        
+        &lt;a href=&quot;/packages/tanton_engine.html&quot;&gt;tanton_engine&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/tanton_engine&quot;&gt;crates.io&lt;/a&gt;)
+        
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        Vulnerability
+        
+      &lt;/dd&gt;
+
+      
+      &lt;dt id=&quot;categories&quot;&gt;Categories&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;a href=&quot;/categories/memory-corruption.html&quot;&gt;memory-corruption&lt;/a&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      
+
+      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        no patched versions
+        
+      &lt;/dd&gt;
+
+      
+
+      
+      
+
+      
+      
+    &lt;/dl&gt;
+
+    
+    
+    &lt;dl&gt;
+      &lt;dt&gt;Affected Functions&lt;/dt&gt;
+      &lt;dd&gt;Version&lt;/dd&gt;
+      
+      &lt;dt&gt;&lt;code&gt;tanton_engine::RootMoveList::insert_score&lt;/code&gt;&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;code&gt;^1.0.0&lt;/code&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+      &lt;dt&gt;&lt;code&gt;tanton_engine::RootMoveList::insert_score_depth&lt;/code&gt;&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;code&gt;^1.0.0&lt;/code&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+      &lt;dt&gt;&lt;code&gt;tanton_engine::Stack::offset&lt;/code&gt;&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;code&gt;^1.0.0&lt;/code&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+      &lt;dt&gt;&lt;code&gt;tanton_engine::ThreadStack::get&lt;/code&gt;&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;code&gt;^1.0.0&lt;/code&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+    &lt;/dl&gt;
+    
+
+    
+
+    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+    &lt;p&gt;The following functions in the &lt;code&gt;tanton_engine&lt;/code&gt; crate are unsound due to lack of sufficient boundary
+checks in public API:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Stack::offset()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ThreadStack::get()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;RootMoveList::insert_score_depth()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;RootMoveList::insert_score()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The tanton_engine crate is no longer maintained, so there are no plans to fix this issue.&lt;/p&gt;
+
+
+    &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
+    license.
+
+    
+    &lt;/p&gt;
+  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2025-0030: Unsoundness in totally-safe-transmute</title><id>https://rustsec.org/advisories/RUSTSEC-2025-0030.html</id><updated>2025-05-06T12:00:00+00:00</updated><category term="memory-corruption"/><link href="https://rustsec.org/advisories/RUSTSEC-2025-0030.html" rel="alternate" type="text/html" title="RUSTSEC-2025-0030: Unsoundness in totally-safe-transmute"/><published>2025-05-05T12:00:00+00:00</published><summary xml:lang="en">totally-safe-transmute allows transmuting any type to any other type in safe Rust</summary><content xml:lang="en" type="html">  &lt;article&gt;
+    
+        &lt;span class=&quot;floating-menu&quot;&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/totally-safe-transmute/RUSTSEC-2025-0030.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/totally-safe-transmute/RUSTSEC-2025-0030.md&quot;&gt;Edit&lt;/a&gt; ⋅
+          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2025-0030&quot;&gt;JSON (OSV)&lt;/a&gt;
+        &lt;/span&gt;
+    
+
+    &lt;header&gt;
+      &lt;h1&gt;
+        
+        RUSTSEC-2025-0030
+        
+      &lt;/h1&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;totally-safe-transmute allows transmuting any type to any other type in safe Rust&lt;/p&gt;
+&lt;/span&gt;
+    &lt;/header&gt;
+
+    
+
+    &lt;dl&gt;
+      &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2025-02-10&quot;&gt;
+          February 10, 2025
+        &lt;/time&gt;
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2025-05-05&quot;&gt;
+          May  5, 2025
+        &lt;/time&gt;
+        
+        &lt;time datetime=&quot;2025-05-06&quot;&gt;
+          (last modified: May  6, 2025)
+        &lt;/time&gt;
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        
+        &lt;a href=&quot;/packages/totally-safe-transmute.html&quot;&gt;totally-safe-transmute&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/totally-safe-transmute&quot;&gt;crates.io&lt;/a&gt;)
+        
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
+        Unsound
+        
+      &lt;/dd&gt;
+
+      
+      &lt;dt id=&quot;categories&quot;&gt;Categories&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;a href=&quot;/categories/memory-corruption.html&quot;&gt;memory-corruption&lt;/a&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+      &lt;dt id=&quot;keywords&quot;&gt;Keywords&lt;/dt&gt;
+      &lt;dd&gt;
+        
+          &lt;a href=&quot;/keywords/soundness-hole.html&quot;&gt;#soundness-hole&lt;/a&gt;
+        
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      &lt;dt id=&quot;details&quot;&gt;References&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+        
+          &lt;li&gt;
+            &lt;a href=&quot;https://github.com/ben0x539/totally-safe-transmute&quot;&gt;
+              https://github.com/ben0x539/totally-safe-transmute
+            &lt;/a&gt;
+          &lt;/li&gt;
+        
+        
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      
+
+      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        no patched versions
+        
+      &lt;/dd&gt;
+
+      
+
+      
+      
+    &lt;/dl&gt;
+
+    
+    
+
+    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+    &lt;p&gt;This crate is a toy and should never be used.&lt;/p&gt;
+&lt;p&gt;It showcases a known soundness issue (https://github.com/rust-lang/rust/issues/32670) that will never get fixed. In short, Linux provides a file called &lt;code&gt;/proc/self/mem&lt;/code&gt; which can be used by a program to modify its own memory. This library modifies an enum variant number by accessing its own memory as a file to effectively transmute a variable.&lt;/p&gt;
+&lt;p&gt;See also &lt;a href=&quot;https://doc.rust-lang.org/std/os/unix/io/index.html#procselfmem-and-similar-os-features&quot;&gt;https://doc.rust-lang.org/std/os/unix/io/index.html#procselfmem-and-similar-os-features&lt;/a&gt;&lt;/p&gt;
+
+
+    &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
+    license.
+
+    
+    &lt;/p&gt;
+  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2025-0029: Unsoundness in totally-safe</title><id>https://rustsec.org/advisories/RUSTSEC-2025-0029.html</id><updated>2025-05-05T12:00:00+00:00</updated><category term="memory-corruption"/><link href="https://rustsec.org/advisories/RUSTSEC-2025-0029.html" rel="alternate" type="text/html" title="RUSTSEC-2025-0029: Unsoundness in totally-safe"/><published>2025-05-05T12:00:00+00:00</published><summary xml:lang="en">totally-safe introduces memory vulnerabilities in safe Rust</summary><content xml:lang="en" type="html">  &lt;article&gt;
+    
+        &lt;span class=&quot;floating-menu&quot;&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/totally-safe/RUSTSEC-2025-0029.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/totally-safe/RUSTSEC-2025-0029.md&quot;&gt;Edit&lt;/a&gt; ⋅
+          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2025-0029&quot;&gt;JSON (OSV)&lt;/a&gt;
+        &lt;/span&gt;
+    
+
+    &lt;header&gt;
+      &lt;h1&gt;
+        
+        RUSTSEC-2025-0029
+        
+      &lt;/h1&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;totally-safe introduces memory vulnerabilities in safe Rust&lt;/p&gt;
+&lt;/span&gt;
+    &lt;/header&gt;
+
+    
+
+    &lt;dl&gt;
+      &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2025-02-10&quot;&gt;
+          February 10, 2025
+        &lt;/time&gt;
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2025-05-05&quot;&gt;
+          May  5, 2025
+        &lt;/time&gt;
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        
+        &lt;a href=&quot;/packages/totally-safe.html&quot;&gt;totally-safe&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/totally-safe&quot;&gt;crates.io&lt;/a&gt;)
+        
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
+        Unsound
+        
+      &lt;/dd&gt;
+
+      
+      &lt;dt id=&quot;categories&quot;&gt;Categories&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;a href=&quot;/categories/memory-corruption.html&quot;&gt;memory-corruption&lt;/a&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+      &lt;dt id=&quot;keywords&quot;&gt;Keywords&lt;/dt&gt;
+      &lt;dd&gt;
+        
+          &lt;a href=&quot;/keywords/soundness-hole.html&quot;&gt;#soundness-hole&lt;/a&gt;
+        
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      &lt;dt id=&quot;details&quot;&gt;References&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+        
+          &lt;li&gt;
+            &lt;a href=&quot;https://github.com/viktorlott/totally-safe&quot;&gt;
+              https://github.com/viktorlott/totally-safe
+            &lt;/a&gt;
+          &lt;/li&gt;
+        
+        
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      
+
+      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        no patched versions
+        
+      &lt;/dd&gt;
+
+      
+
+      
+      
+    &lt;/dl&gt;
+
+    
+    
+
+    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+    &lt;p&gt;&lt;code&gt;totally-safe&lt;/code&gt; provides unsound APIs that exploit a soundness bug in rustc: https://github.com/rust-lang/rust/issues/25860&lt;/p&gt;
+
+
+    &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
+    license.
+
+    
+    &lt;/p&gt;
+  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2025-0028: Unsoundness in cve-rs</title><id>https://rustsec.org/advisories/RUSTSEC-2025-0028.html</id><updated>2025-05-06T12:00:00+00:00</updated><category term="memory-corruption"/><link href="https://rustsec.org/advisories/RUSTSEC-2025-0028.html" rel="alternate" type="text/html" title="RUSTSEC-2025-0028: Unsoundness in cve-rs"/><published>2025-05-05T12:00:00+00:00</published><summary xml:lang="en">cve-rs introduces memory vulnerabilities in safe Rust</summary><content xml:lang="en" type="html">  &lt;article&gt;
+    
+        &lt;span class=&quot;floating-menu&quot;&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/cve-rs/RUSTSEC-2025-0028.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/cve-rs/RUSTSEC-2025-0028.md&quot;&gt;Edit&lt;/a&gt; ⋅
+          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2025-0028&quot;&gt;JSON (OSV)&lt;/a&gt;
+        &lt;/span&gt;
+    
+
+    &lt;header&gt;
+      &lt;h1&gt;
+        
+        RUSTSEC-2025-0028
+        
+      &lt;/h1&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;cve-rs introduces memory vulnerabilities in safe Rust&lt;/p&gt;
+&lt;/span&gt;
+    &lt;/header&gt;
+
+    
+
+    &lt;dl&gt;
+      &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2025-02-10&quot;&gt;
+          February 10, 2025
+        &lt;/time&gt;
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2025-05-05&quot;&gt;
+          May  5, 2025
+        &lt;/time&gt;
+        
+        &lt;time datetime=&quot;2025-05-06&quot;&gt;
+          (last modified: May  6, 2025)
+        &lt;/time&gt;
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        
+        &lt;a href=&quot;/packages/cve-rs.html&quot;&gt;cve-rs&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/cve-rs&quot;&gt;crates.io&lt;/a&gt;)
+        
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        &lt;span class=&quot;tag info&quot;&gt;INFO&lt;/span&gt;
+        Unsound
+        
+      &lt;/dd&gt;
+
+      
+      &lt;dt id=&quot;categories&quot;&gt;Categories&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;a href=&quot;/categories/memory-corruption.html&quot;&gt;memory-corruption&lt;/a&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+      &lt;dt id=&quot;keywords&quot;&gt;Keywords&lt;/dt&gt;
+      &lt;dd&gt;
+        
+          &lt;a href=&quot;/keywords/soundness-hole.html&quot;&gt;#soundness-hole&lt;/a&gt;
+        
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      &lt;dt id=&quot;details&quot;&gt;References&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+        
+          &lt;li&gt;
+            &lt;a href=&quot;https://github.com/Speykious/cve-rs&quot;&gt;
+              https://github.com/Speykious/cve-rs
+            &lt;/a&gt;
+          &lt;/li&gt;
+        
+        
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      
+
+      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        no patched versions
+        
+      &lt;/dd&gt;
+
+      
+
+      
+      
+    &lt;/dl&gt;
+
+    
+    
+
+    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+    &lt;p&gt;This crate is a joke and should never be used.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cve-rs&lt;/code&gt; provides demonstrations of common memory vulnerabilities (such as buffer overflows and segfaults) implemented completely within safe Rust.&lt;/p&gt;
+&lt;p&gt;Internally, this crate does not use unsafe code, it instead exploits a soundness bug in rustc: https://github.com/rust-lang/rust/issues/25860&lt;/p&gt;
+
+
+    &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
+    license.
+
+    
+    &lt;/p&gt;
+  &lt;/article&gt;</content></entry><entry><title>RUSTSEC-2024-0441: Vulnerability in wasmtime</title><id>https://rustsec.org/advisories/RUSTSEC-2024-0441.html</id><updated>2025-05-02T12:00:00+00:00</updated><link href="https://rustsec.org/advisories/RUSTSEC-2024-0441.html" rel="alternate" type="text/html" title="RUSTSEC-2024-0441: Vulnerability in wasmtime"/><published>2025-05-02T12:00:00+00:00</published><summary xml:lang="en">Panic when using a dropped extenref-typed element segment</summary><content xml:lang="en" type="html">  &lt;article&gt;
+    
+        &lt;span class=&quot;floating-menu&quot;&gt;
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/commits/main/crates/wasmtime/RUSTSEC-2024-0441.md&quot;&gt;History&lt;/a&gt; ⋅ 
+          &lt;a href=&quot;https://github.com/RustSec/advisory-db/edit/main/crates/wasmtime/RUSTSEC-2024-0441.md&quot;&gt;Edit&lt;/a&gt; ⋅
+          &lt;a href=&quot;https://api.osv.dev/v1/vulns/RUSTSEC-2024-0441&quot;&gt;JSON (OSV)&lt;/a&gt;
+        &lt;/span&gt;
+    
+
+    &lt;header&gt;
+      &lt;h1&gt;
+        
+        RUSTSEC-2024-0441
+        
+      &lt;/h1&gt;
+      &lt;span class=&quot;subtitle&quot;&gt;&lt;p&gt;Panic when using a dropped extenref-typed element segment&lt;/p&gt;
+&lt;/span&gt;
+    &lt;/header&gt;
+
+    
+
+    &lt;dl&gt;
+      &lt;dt id=&quot;reported&quot;&gt;Reported&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2024-04-02&quot;&gt;
+          April  2, 2024
+        &lt;/time&gt;
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;issued&quot;&gt;Issued&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;time datetime=&quot;2025-05-02&quot;&gt;
+          May  2, 2025
+        &lt;/time&gt;
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;package&quot;&gt;Package&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        
+        &lt;a href=&quot;/packages/wasmtime.html&quot;&gt;wasmtime&lt;/a&gt;
+          (&lt;a href=&quot;https://crates.io/crates/wasmtime&quot;&gt;crates.io&lt;/a&gt;)
+        
+        
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;type&quot;&gt;Type&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        Vulnerability
+        
+      &lt;/dd&gt;
+
+      
+
+      
+
+      
+      &lt;dt id=&quot;aliases&quot;&gt;Aliases&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;
+            
+            &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30266&quot;&gt;CVE-2024-30266&lt;/a&gt;
+            
+          &lt;/li&gt;
+          
+          &lt;li&gt;
+            
+            &lt;a href=&quot;https://github.com/advisories/GHSA-75hq-h6g9-h4q5&quot;&gt;GHSA-75hq-h6g9-h4q5&lt;/a&gt;
+            
+          &lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+      &lt;dt id=&quot;details&quot;&gt;References&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+        
+          &lt;li&gt;
+            &lt;a href=&quot;https://github.com/bytecodealliance/wasmtime/security/advisories/GHSA-75hq-h6g9-h4q5&quot;&gt;
+              https://github.com/bytecodealliance/wasmtime/security/advisories/GHSA-75hq-h6g9-h4q5
+            &lt;/a&gt;
+          &lt;/li&gt;
+        
+        
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+
+      
+      &lt;dt id=&quot;cvss_score&quot;&gt;CVSS Score&lt;/dt&gt;
+      &lt;dd&gt;3.3 &lt;span class=&quot;tag low&quot;&gt;
+        LOW
+      &lt;/span&gt;&lt;/dd&gt;
+
+      &lt;dt id=&quot;cvss_details&quot;&gt;CVSS Details&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;dl&gt;
+          
+          &lt;dt&gt;Attack vector&lt;/dt&gt;&lt;dd&gt;Local&lt;/dd&gt;
+          
+
+          
+          &lt;dt&gt;Attack complexity&lt;/dt&gt;&lt;dd&gt;Low&lt;/dd&gt;
+          
+
+          
+          &lt;dt&gt;Privileges required&lt;/dt&gt;&lt;dd&gt;Low&lt;/dd&gt;
+          
+
+          
+          &lt;dt&gt;User interaction&lt;/dt&gt;&lt;dd&gt;None&lt;/dd&gt;
+          
+
+          
+          &lt;dt&gt;Scope&lt;/dt&gt;&lt;dd&gt;Unchanged&lt;/dd&gt;
+          
+
+          
+          &lt;dt&gt;Confidentiality&lt;/dt&gt;&lt;dd&gt;None&lt;/dd&gt;
+          
+
+          
+          &lt;dt&gt;Integrity&lt;/dt&gt;&lt;dd&gt;None&lt;/dd&gt;
+          
+
+          
+          &lt;dt&gt;Availability&lt;/dt&gt;&lt;dd&gt;Low&lt;/dd&gt;
+          
+        &lt;/dl&gt;
+      &lt;/dd&gt;
+
+      &lt;dt id=&quot;cvss&quot;&gt;CVSS Vector&lt;/dt&gt;
+
+      
+      &lt;dd&gt;&lt;a href=&quot;https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L&quot;&gt;CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L&lt;/a&gt;&lt;/dd&gt;
+      
+
+      
+
+      &lt;dt id=&quot;patched&quot;&gt;Patched&lt;/dt&gt;
+      &lt;dd&gt;
+        
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;code&gt;&amp;#62;=19.0.1&lt;/code&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+        
+      &lt;/dd&gt;
+
+      
+      &lt;dt id=&quot;unaffected&quot;&gt;Unaffected&lt;/dt&gt;
+      &lt;dd&gt;
+        &lt;ul&gt;
+          
+          &lt;li&gt;&lt;code&gt;&amp;#60;19.0.0&lt;/code&gt;&lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/dd&gt;
+      
+
+      
+      
+    &lt;/dl&gt;
+
+    
+    
+
+    &lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+    &lt;p&gt;This is an entry in the RustSec database for the Wasmtime security advisory
+located at
+https://github.com/bytecodealliance/wasmtime/security/advisories/GHSA-75hq-h6g9-h4q5.
+For more information see the GitHub-hosted security advisory.&lt;/p&gt;
 
 
     &lt;p id=&quot;license&quot; class=&quot;license&quot;&gt;Advisory available under &lt;a href=&quot;https://spdx.org/licenses/CC0-1.0.html&quot;&gt;CC0-1.0&lt;/a&gt;
