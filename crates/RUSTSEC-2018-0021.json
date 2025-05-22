@@ -28,7 +28,8 @@
             "libpulse_binding::stream::Stream::get_context",
             "libpulse_binding::stream::Stream::get_format_info"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -49,7 +50,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

@@ -35,7 +35,8 @@
             "wasmtime::Linker::func_wrap",
             "wasmtime::Store::gc"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -57,7 +58,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

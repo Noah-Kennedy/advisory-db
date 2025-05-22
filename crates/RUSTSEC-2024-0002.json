@@ -29,7 +29,8 @@
           "functions": [
             "vmm_sys_util::fam::FamStructWrapper::deserialize"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -50,7 +51,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

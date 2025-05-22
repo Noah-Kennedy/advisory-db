@@ -24,7 +24,8 @@
             "cell_project::cell_project",
             "cell_project::nightly_cell_project"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -45,7 +46,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [

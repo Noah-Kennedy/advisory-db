@@ -24,7 +24,8 @@
           "functions": [
             "wasmtime::Config::epoch_interruption"
           ]
-        }
+        },
+        "affected_functions": null
       },
       "database_specific": {
         "categories": [
@@ -52,7 +53,8 @@
             }
           ]
         }
-      ]
+      ],
+      "versions": []
     }
   ],
   "references": [
